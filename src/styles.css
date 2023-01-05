@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --bg-color : rgb(130, 130, 130);
+    --text-color : rgb(230, 230, 230);
+    
+    --bg-box : rgb(80, 80, 80);
+    --bg-box-top : rgb(65, 65, 65);
+    --bg-box-left : rgb(45, 45, 45);
+
+    --bg-select-box : rgb(85, 85, 185);
+    --bg-select-box-top : rgb(70, 70, 170);
+    --bg-select-box-left : rgb(50, 50, 150);
+}
+
+ body{
+    min-height: 100vh;
+    margin: 0;
+    
+    background-color: var(--bg-color);
+    color : var(--text-color);
+}
+
+p{
+    margin: 0;
+}
