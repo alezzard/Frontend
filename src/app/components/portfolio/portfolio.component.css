@@ -1,11 +1,12 @@
 .boxes{
-        min-height: calc(100vh - 91px);
+        /* min-height: calc(100vh - 91px); */
         list-style: none;
         position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 9.5rem;
 }
 
 .boxes .box{

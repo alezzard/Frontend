@@ -1,0 +1,63 @@
+header{
+    /* height: 50px; */
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+section{
+    color: dodgerblue;
+}
+.titulo{
+    position: relative;
+}
+video{
+    position: absolute;
+    top: 2.6rem;
+    left: 0;
+    width: 100%;
+    height: 41%;
+    object-fit: cover;
+}
+h1 {
+    font-family: 'she-smiles','sans-serif';
+    background: black;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    mix-blend-mode: multiply;
+}
+.navbar {
+    background: black;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.navImg {
+    float: left;
+    margin: -4px 0px 0px 0px;
+}
+
+.imgUno {
+    width: 100px;
+    height: 45px;
+}
+
+.imgDos {
+    width: 110px;
+    height: 40px;
+}
+
+.navMenu {
+    float: right;
+    margin: -2px 8px 0px 0px;
+}
+
+.socialMedia{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+}
+.link img{
+    width: 3rem;
+    padding-right: 0.3rem;
+}

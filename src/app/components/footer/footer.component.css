@@ -1,0 +1,10 @@
+footer{
+    
+    justify-content: space-between;    
+}
+#firs-txt{
+    float: left;
+}
+#second-txt{
+    float: right;
+}
