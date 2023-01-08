@@ -10,6 +10,8 @@ import { ProfileComponent} from './components/profile/profile.component';
 import { EducationComponent } from './components/education/education.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ProjectComponent } from './components/project/project.component';
+import { SkillComponent } from './components/skill/skill.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,27 @@ import { ProjectComponent } from './components/project/project.component';
     ProfileComponent,
     EducationComponent,
     ExperienceComponent,
-    ProjectComponent
+    ProjectComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      titleColor: "#d9d2d2",
+      titleFontSize:"2.5rem",
+      showImage: true,
+      imageHeight:70,
+      imageWidth:70,
+      showSubtitle: false,
+      showUnits: false,
+      outerStrokeWidth: 10,
+      innerStrokeWidth: 1,
+      outerStrokeColor: "#0d6efd",
+      innerStrokeColor: "#afc8fe",
+      animation:true,
+      animationDuration: 700})
   ],
   providers: [],
   bootstrap: [AppComponent]
