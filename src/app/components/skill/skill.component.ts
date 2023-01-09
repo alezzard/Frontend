@@ -9,32 +9,7 @@ import { skills } from 'src/app/moks/mock-skill';
 })
 export class SkillComponent implements OnInit {
 
-  skills : Skill[] = [/* 
-    {
-      "imgLogo":"Angular",
-      "porcentaje":10
-  },
-  {
-      "imgLogo":"Spring-boot",
-      "porcentaje":80
-  },
-  {
-      "imgLogo":"MySQL",
-      "porcentaje":60
-  },
-  {
-      "imgLogo":"Comunicacion Asertiva",
-      "porcentaje":90
-  },
-  {
-      "imgLogo":"Escucha Empatica.png",
-      "porcentaje":90
-  },
-  {
-      "imgLogo":"Retroalimentacion",
-      "porcentaje":70
-  } */
-  ]
+  skills : Skill[] = []
 
   constructor() { }
 
