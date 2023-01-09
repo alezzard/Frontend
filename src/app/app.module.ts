@@ -12,6 +12,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { ProjectComponent } from './components/project/project.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillItemComponent } from './components/skill/skill-item/skill-item.component';
 
 @NgModule({
   declarations: [
@@ -23,18 +24,17 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     EducationComponent,
     ExperienceComponent,
     ProjectComponent,
-    SkillComponent
+    SkillComponent,
+    SkillItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
       radius: 100,
-      titleColor: "#d9d2d2",
-      titleFontSize:"2.5rem",
-      showImage: true,
-      imageHeight:70,
-      imageWidth:70,
+      titleColor: "#red",
+      titleFontSize:"1.1rem",
+      showImage: false,
       showSubtitle: false,
       showUnits: false,
       outerStrokeWidth: 10,

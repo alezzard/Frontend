@@ -1,4 +1,4 @@
 export interface Skill{
+    titulo: string;
     porcentaje: number;
-    imgLogo: string;
 }
