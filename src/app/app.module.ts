@@ -38,7 +38,7 @@ import { EducationItemComponent } from './components/education/education-item/ed
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
       radius: 100,
-      titleColor: "#red",
+      titleColor: "#e6e6e6",
       titleFontSize:"1.1rem",
       showImage: false,
       showSubtitle: false,
