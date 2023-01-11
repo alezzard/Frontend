@@ -20,4 +20,5 @@ section .card-text{
     position: relative;
     background-color: var(--bg-color-card-text);
     border-radius: 5px;
+    padding-bottom: 0.5rem;
 }

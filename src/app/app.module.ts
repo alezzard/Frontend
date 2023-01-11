@@ -13,6 +13,9 @@ import { ProjectComponent } from './components/project/project.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillItemComponent } from './components/skill/skill-item/skill-item.component';
+import { ProjectItemComponent } from './components/project/project-item/project-item.component';
+import { ExperienceItemComponent } from './components/experience/experience-item/experience-item.component';
+import { EducationItemComponent } from './components/education/education-item/education-item.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { SkillItemComponent } from './components/skill/skill-item/skill-item.com
     ExperienceComponent,
     ProjectComponent,
     SkillComponent,
-    SkillItemComponent
+    SkillItemComponent,
+    ProjectItemComponent,
+    ExperienceItemComponent,
+    EducationItemComponent
   ],
   imports: [
     BrowserModule,
